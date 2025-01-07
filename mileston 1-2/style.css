@@ -108,8 +108,24 @@ p {
   color: rgb(37, 37, 37);
   line-height: 15px;
 }
-
+.button {
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: white;
+  background-color:rgb(54, 54, 54);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: gray;
+  color: black;
+}
 @media (min-width: 500px) {
+  
   .div-main {
     gap: 10px;
   }
@@ -152,6 +168,9 @@ p {
   }
 }
 @media (min-width: 900px) {
+  .button{
+    margin-left: 30px;
+  }
   .div-main {
     gap: 0;
   }
