@@ -1,54 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Static Resume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 id="main-heading">Interactive Static Resume</h1>
-    <div class="main-container">
-        <div class="container-1">
-            <img src="/profilepic.jpg" alt="profile picture" class="profile-pic">
-            <h1 class="name">Amraha Anwar</h1>
-            <div class="line-position">
-            </div>
-       
-        <div class="container-2">
-            <section id="Personal-info">
-                <h2>PERSONAL INFORMATION</h2>
-                <p><b>Name:</b> Amraha Anwar</p>
-                <p><b>Phone Number:</b> 1234-5678900</p>
-                <p><b>Email Address:</b><a href="mailto:amrahaanear@gmail.com"> amrahaanwar@gmail.com</a></p>
-                <p><b>LinedIn ID:</b><a href="https://www.linkedin.com/in/amraha-anwar-45bb342b3/" target="main">www.linekIn.com</a></p>
-            </section>
-            <button id="toggle-info">+/-</button>
-
-            <section id="education">
-                <h2>EDUCATION</h2>
-                <p><b>ICS:</b>Intermediate in Computer Science from Firoza Khatoon Women's College Karachi. (2021-2023)</p>
-                <p><b>Current Learning:</b>Cloud Applied Generative AI, WEB 3.0 & Metaverse from Governor House Karachi.</p>
-
-            </section>
-
-            <section id="skills">
-                <h2>SKILLS</h2>
-                <ul>
-                    <li>Hyper Text Markup Language <b>(HTML)</b></li>
-                    <li>Cascading Style Sheet <b>(CSS)</b></li>
-                    <li>Typescript</li>
-                </ul>
-            </section>
-            <button id="toggle-skills">+/-</button>
-            
-            <section id="experience">
-                <h2>WORK EXPERIENCE</h2>
-                <p>Seeking an opportunity as a fresh candidate to start my professional career.</p>
-            </section>
-            <button id="toggle-experience"><b>+/-</b></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="logo-section">
+        <img class="logo" src="logo.png" alt="logo" />
+        <h1 class="web-name">A<sub>A_.</sub></h1>
+        <div class="wel-text">
+          <h2 class="welcome">Welcome to my Resume Builder</h2>
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+      </div>
+
+      <!-- resume container -->
+      <div class="main-container">
+        <div class="div-1">
+          <h2 class="name-heading">Amraha Anwar</h2>
+        </div>
+        <div class="div-main">
+          <div class="left">
+            <img class="profile" src="profilepic.jpg" alt="profile picture" />
+          </div>
+          <div class="right">
+            <dl class="info">
+              <div class="info-2">
+                <dt>Name:</dt>
+                <dd class="value">Amraha Anwar</dd>
+              </div>
+              <div class="info-2">
+                <dt>Age:</dt>
+                <dd class="value">17</dd>
+              </div>
+              <div class="info-2">
+                <dt>Education:</dt>
+                <dd class="value">Intermediate</dd>
+              </div>
+              <div class="info-2">
+                <dt>Occupation:</dt>
+                <dd class="value">Front-End Developer</dd>
+              </div>
+              <div class="info-2">
+                <dt>Email:</dt>
+                <dd class="value">
+                  <a href="mailto:amrahaanwar@gmail.com"
+                    >amrahaanwar@gmail.com</a
+                  >
+                </dd>
+              </div>
+              <div class="info-2">
+                <dt>LinkedIn:</dt>
+                <dd class="value">
+                  <a href="https://www.linkedin.com/in/amraha-anwar-45bb342b3/"
+                    >myLinkedInAccount</a
+                  >
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="container-2">
+            <h2 class="about">
+                About Me
+            </h2>
+            <p>My name is Sara Louis, a 17-year-old passionate and ambitious individual with a growing expertise in front-end development. As an intermediate pass, I have already begun carving a path in the tech industry, combining my skills with creativity to build engaging and functional user interfaces. With a strong commitment to learning and innovation, I aim to continually enhance my abilities and contribute to impactful projects in the digital world.</p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
