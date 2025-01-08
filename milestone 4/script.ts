@@ -22,8 +22,8 @@ form.addEventListener('submit' , (event: Event) =>{
     <h2><b>Editable Resume</b></h2>
     <h3>Personal Information</h3>
     <p><b>Name:</b><span contenteditable="true">${name}</span></p>
-     <p><b>Name:</b><span contenteditable="true">${phone}</span></p>
-      <p><b>Name:</b><span contenteditable="true">${email}</span></p>
+     <p><b>Phone Number:</b><span contenteditable="true">${phone}</span></p>
+      <p><b>Email:</b><span contenteditable="true">${email}</span></p>
 
       <h3>Education</h3>
       <p contenteditable="true">${education}</p>
